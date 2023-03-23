@@ -6,12 +6,12 @@ function multiplicationTable(num) {
 multiplicationTable(10)
 
  // Inside the function, create a for loop that iterates from 1 to 10.
-function myFunction() {
-    for (let i = 1; i <= 10; i++) {
+function myFunction(num) {
+    for (let i = 1; i <= num; i++) {
       console.log(i);
     }
 }
-myFunction()
+myFunction(10)
 
 // Inside the loop, multiply the current iteration number by the input "num" to generate the product.
 function multiply(num) {
